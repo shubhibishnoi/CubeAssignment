@@ -1,0 +1,70 @@
+.App{
+  display: flex;
+  
+}
+
+.ListNames{
+  width: 32%;
+  height: 100vh;
+  overflow-y: scroll;
+  padding-left: 3%;
+
+}
+
+.customerName{
+  padding-top: 5%;
+  margin-bottom: 4%;
+   
+}
+
+.Info{
+  padding-left: 3%;
+  margin-top: 2%;
+  width: 60%;
+
+}
+
+.HoverList{
+
+  background-color: light rgb(0, 0, 0);
+  color: rgb(5, 5, 1);
+  cursor: pointer;
+}
+
+.HoverList:hover{
+  background-color: rgb(139, 138, 136);
+
+}
+
+.infoTitle{
+  margin-top: 3%;
+}
+
+.InfoName{
+  text-align:center ;
+}
+
+.photoClass{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photoClass div img{
+
+width: 100%;
+border-radius: 2%;
+
+
+}
+
+.photoClass div{
+  width: 25%;
+  padding: 1%;
+ 
+  
+
+  
+}
+
